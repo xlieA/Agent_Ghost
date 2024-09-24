@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a2e3f36b11d4f45aa5dff75c6ddf71, type: 3}
+  m_Name: Ending 3
+  m_EditorClassIdentifier: 
+  story: "You feel your power dwindling. The rain isn\u2019t helping your grip either.
+    You can feel your fingers slipping and begin falling backwards. With Ben\u2019s
+    screams in your ears and raindrops streaming down your face, gravity pulls you
+    down into the abuse.\r"
+  hint: 
+  part: ending3
+  exits: []

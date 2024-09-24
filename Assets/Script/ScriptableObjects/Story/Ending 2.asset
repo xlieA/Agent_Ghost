@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a2e3f36b11d4f45aa5dff75c6ddf71, type: 3}
+  m_Name: Ending 2
+  m_EditorClassIdentifier: 
+  story: "You\u2019re frustrated and angrily tell Ben that you are heading home.
+    You don\u2019t wait for his response before you turn around and start your descent.\r\nWhen
+    you reach your car, it\u2019s already starting to rain lightly. You begin your
+    journey home.\r\nA few days later, you read in the papers, a climber got trapped
+    in the mountains in bad weather and fell to his death.\r"
+  hint: 
+  part: ending2
+  exits: []

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a2e3f36b11d4f45aa5dff75c6ddf71, type: 3}
+  m_Name: Part 13
+  m_EditorClassIdentifier: 
+  story: "You can\u2019t do it. You aren\u2019t strong enough. Ben is going to drag
+    you both down.\r\nCarefully you try to convert all of the weight into one hand.
+    The additional ballast is hurting your shoulder. With your free hand, you try
+    to reach your pants. Your hand slides into your pocket and you can feel the cold
+    metal in your hand. You pause for a moment. When you pull out your hand, it\u2019s
+    shaking. The knife feels heavy.\r\nShould you really do this? You may be able
+    to hold on for a little longer. But no one\u2019s going to save you. There is
+    no help, there will be no help. You are the only people on this mountain.\r\nIf
+    you don\u2019t cut the safety rope, Ben will kill you both. If you cut the safety
+    rope at least one of you could live.\r\nBen has been a total jerk to you all
+    day. He has been bragging about his money and his house all the time. And you
+    tried your best to help him. But even now, he isn\u2019t listening to you and
+    won\u2019t stop moving. If he only listened to you, you could help him. But he
+    won\u2019t!\r\nYou feel your hand slowly losing grip. You have to cut the safety
+    rope, name."
+  hint: You have to <i>cut</i> the rope!
+  part: part13
+  exits:
+  - keyString:
+    - cut
+    - let go
+    valueStory: {fileID: 11400000, guid: 1e7e07beb00bd5b4c87142fc77b1dff0, type: 2}

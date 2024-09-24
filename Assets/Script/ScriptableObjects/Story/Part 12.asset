@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a2e3f36b11d4f45aa5dff75c6ddf71, type: 3}
+  m_Name: Part 12
+  m_EditorClassIdentifier: 
+  story: "It seems to be an impossible task to help Ben. He won\u2019t listen to
+    your advice and he won\u2019t stop moving either. Your arms start to get tired.
+    You won\u2019t be able to hold the two of you for much longer."
+  hint: You need to <i>hold on</i>!
+  part: part12
+  exits:
+  - keyString:
+    - hold
+    - save
+    - grab
+    - help
+    valueStory: {fileID: 11400000, guid: b9392b3bde79c7942ba38cee075456e4, type: 2}
+  - keyString:
+    - cut
+    - let go
+    valueStory: {fileID: 11400000, guid: 1e7e07beb00bd5b4c87142fc77b1dff0, type: 2}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a2e3f36b11d4f45aa5dff75c6ddf71, type: 3}
+  m_Name: Part 10
+  m_EditorClassIdentifier: 
+  story: "After your break, you\u2019re ready to head for the summit with new energy.
+    There\u2019s another hour to go until you reach the peak.\r\nUnfortunately, the
+    weather is getting worse and worse. And soon it\u2019s very windy. In addition
+    to that, Ben won\u2019t stop bragging about his wonderful life, which isn\u2019t
+    helping improve your mood.\r\nYour trip has taken a dark turn and you aren\u2019t
+    having fun anymore.\r\nDo you want to keep pushing for the summit?"
+  hint: 
+  part: part10
+  exits:
+  - keyString:
+    - continue
+    - yes
+    - y
+    - summit
+    - push
+    valueStory: {fileID: 11400000, guid: 118f77d802c185042b27fe71c7ceb710, type: 2}
+  - keyString:
+    - no
+    - n
+    - return
+    - home
+    - leave
+    valueStory: {fileID: 11400000, guid: 6472ab86b63d14245aee7d32f287dd96, type: 2}

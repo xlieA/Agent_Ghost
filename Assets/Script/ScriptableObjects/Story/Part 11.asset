@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a2e3f36b11d4f45aa5dff75c6ddf71, type: 3}
+  m_Name: Part 11
+  m_EditorClassIdentifier: 
+  story: "You are already able to see the summit. Probably another 20 to 30 minutes
+    to go. You can\u2019t wait to finally head back home again. This adventure turned
+    out to be awful. It looks like Ben has changed after all. All he does is talk
+    about himself and how great he is. It was a stupid idea to agree to go on this
+    trip.\r\nNow it also starts to rain, which doesn\u2019t help your mood. Raindrops
+    hit your face and mix up with your sweat. Annoyed, you wipe them away.\r\nSuddenly
+    Ben loses his grip and falls into the safety rope. His weight is pulling you
+    down. Ben is struggling to get back on track. Due to his uncontrollable movements,
+    your harness is cutting into the flesh of your thigh. You grimace with pain."
+  hint: Fast, you should <i>help</i> your friend!
+  part: part11
+  exits:
+  - keyString:
+    - help
+    - grab
+    - save
+    - hold
+    valueStory: {fileID: 11400000, guid: 6109dcdc2f04a4c4f9b10156e9343a9e, type: 2}
+  - keyString:
+    - cut
+    - let go
+    valueStory: {fileID: 11400000, guid: 1e7e07beb00bd5b4c87142fc77b1dff0, type: 2}

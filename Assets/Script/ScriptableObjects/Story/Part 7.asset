@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a2e3f36b11d4f45aa5dff75c6ddf71, type: 3}
+  m_Name: Part 7
+  m_EditorClassIdentifier: 
+  story: "You find out Ben is working as a kindergarten teacher and has moved into
+    a nice house together with his wife. Ben married Annie three years ago, the girl
+    you two used to always hang out with in high school.\r\nIt\u2019s good to talk
+    with Ben again.\r\nYou reach your mountain hut after an hour\u2019s drive."
+  hint: You should get ready for your adventure. Start <i>unloading</i> the car.
+  part: part7
+  exits:
+  - keyString:
+    - unload
+    - prepare
+    valueStory: {fileID: 11400000, guid: 27a13dd92bb56b142b2db607625fe821, type: 2}
