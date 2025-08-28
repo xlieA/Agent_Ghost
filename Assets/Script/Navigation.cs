@@ -73,6 +73,13 @@ public class Navigation : MonoBehaviour
             controller.DisplayHint();
         }
 
+        if (missCount > 3 && currentPart.part == "part13")
+        {
+            currentPart = currentPart.exits[1].valueStory;
+            controller.DisplayStoryText();
+            SetInputFieldInactive();
+        }
+
 
         if (!match)
         {

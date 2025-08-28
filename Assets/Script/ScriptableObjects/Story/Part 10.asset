@@ -34,4 +34,4 @@ MonoBehaviour:
     - return
     - home
     - leave
-    valueStory: {fileID: 11400000, guid: 6472ab86b63d14245aee7d32f287dd96, type: 2}
+    valueStory: {fileID: 11400000, guid: 7211a6606ca7c824d9f0d4a2645a1e2e, type: 2}

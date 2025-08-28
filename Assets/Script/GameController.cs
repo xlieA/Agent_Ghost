@@ -98,12 +98,13 @@ public class GameController : MonoBehaviour
 
     private IEnumerator TypewriterEffect(string oldPart, string nextPart)
     {
-        displayText.text = oldPart;
+        //displayText.text = oldPart;
         navigation.SetInputFieldInactive();
 
         bool isAddingRichTextTag = false;
 
-        foreach (char letter in nextPart.ToCharArray())
+        //foreach (char letter in nextPart.ToCharArray())
+        for (int characterIndex = 0; characterIndex < nextPart.Length; ++characterIndex)
         {
             canContinueStory = true;
             if (skip)
@@ -113,19 +114,25 @@ public class GameController : MonoBehaviour
                 break;
             }
 
-            if (letter == '<' || isAddingRichTextTag)
+            string text = oldPart + nextPart.Substring(0, characterIndex);
+            if (nextPart[characterIndex] == '<' || isAddingRichTextTag)
             {
                 isAddingRichTextTag = true;
-                displayText.text += letter;
+                //displayText.text += letter;
 
-                if (letter == '>')
+                text += "<color=#00000000>" + nextPart.Substring(characterIndex) + "</color>";
+                displayText.text = text;
+
+                if (nextPart[characterIndex] == '>')
                 {
                     isAddingRichTextTag = false;
                 }
             }
             else
             {
-                displayText.text += letter;
+                //displayText.text += letter;
+                text += "<color=#00000000>" + nextPart.Substring(characterIndex) + "</color>";
+                displayText.text = text;
                 yield return new WaitForSeconds(typingSpeed);
             }
         }

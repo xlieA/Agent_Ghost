@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   story: "You\u2019re excited.\r\nThe weekend rolls around and you are packing up
     your climbing gear. This is going to be a fun adventure with Ben. Like the good
-    old days, just the two of you. Ben and Name reunited again.\r\nThe car is loaded
+    old days, just the two of you. Ben and you reunited again!\r\nThe car is loaded
     and everything\u2019s ready to go."
   hint: You should head over and <i>pick up</i> Ben.
   part: part5
