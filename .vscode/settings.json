@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Agent Ghost.sln"
+    "dotnet.defaultSolution": "Agent_Ghost.sln"
 }
