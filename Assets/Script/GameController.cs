@@ -98,7 +98,7 @@ public class GameController : MonoBehaviour
 
     private IEnumerator TypewriterEffect(string oldPart, string nextPart)
     {
-        //displayText.text = oldPart;
+        displayText.text = oldPart;
         navigation.SetInputFieldInactive();
 
         bool isAddingRichTextTag = false;
@@ -114,14 +114,14 @@ public class GameController : MonoBehaviour
                 break;
             }
 
-            string text = oldPart + nextPart.Substring(0, characterIndex);
+            //string text = oldPart + nextPart.Substring(0, characterIndex);
             if (nextPart[characterIndex] == '<' || isAddingRichTextTag)
             {
                 isAddingRichTextTag = true;
-                //displayText.text += letter;
+                displayText.text += nextPart[characterIndex];
 
-                text += "<color=#00000000>" + nextPart.Substring(characterIndex) + "</color>";
-                displayText.text = text;
+                //text += "<color=#00000000>" + nextPart.Substring(characterIndex) + "</color>";
+                //displayText.text = text;
 
                 if (nextPart[characterIndex] == '>')
                 {
@@ -130,9 +130,9 @@ public class GameController : MonoBehaviour
             }
             else
             {
-                //displayText.text += letter;
-                text += "<color=#00000000>" + nextPart.Substring(characterIndex) + "</color>";
-                displayText.text = text;
+                displayText.text += nextPart[characterIndex];
+                //text += "<color=#00000000>" + nextPart.Substring(characterIndex) + "</color>";
+                //displayText.text = text;
                 yield return new WaitForSeconds(typingSpeed);
             }
         }
